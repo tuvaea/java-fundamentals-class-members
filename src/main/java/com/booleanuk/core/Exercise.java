@@ -15,13 +15,12 @@ public class Exercise {
     public int age = 33;
 
 
-
     // 2. Create a String member named firstName with a value of "Jane"
-
+    public String firstName;
 
 
     // 3. Create a boolean member named isProgrammer with a value of true
-
+    public boolean isProgrammer;
 
 
     // 4. Change the value below so that the tests pass. Check the README.md file for instructions on
