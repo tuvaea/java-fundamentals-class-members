@@ -1,6 +1,7 @@
 package com.booleanuk.core;
+import com.booleanuk.helpers.ExerciseBase;
 
-public class Exercise {
+public class Exercise extends ExerciseBase {
     // Below is an example of a class member in Java.
     // Where a class describes a thing, a member describes its attributes.
     // If Car were a class, some members of it might be colour, transmission, make and model.
@@ -12,15 +13,15 @@ public class Exercise {
 
 
     // 1. Create an integer member named age with a value of 32
-    public int age = 33;
+
 
 
     // 2. Create a String member named firstName with a value of "Jane"
-    public String firstName;
+
 
 
     // 3. Create a boolean member named isProgrammer with a value of true
-    public boolean isProgrammer;
+
 
 
     // 4. Change the value below so that the tests pass. Check the README.md file for instructions on
