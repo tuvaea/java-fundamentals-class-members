@@ -1,7 +1,11 @@
 package com.booleanuk.extension;
 
-public class Extension {
-    public static String sayHelloWorld() {
-        return "Hello, world!";
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class ExtensionTest {
+    @Test
+    public void shouldSayHelloWorld() {
+        Assertions.assertEquals("Hello, world!", Extension.sayHelloWorld());
     }
 }
